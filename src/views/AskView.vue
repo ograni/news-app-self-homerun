@@ -1,7 +1,7 @@
 <template>
     <div>
     <ul>
-      <li v-for="askItem in askItems" v-bind:key="askItem.id">{{askItem}}</li>
+      <li v-for="askItem in askItems" v-bind:key="askItem.id">{{askItem.title}}</li>
     </ul>
   </div>
 </template>
